@@ -1,0 +1,94 @@
+body{
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 700 px){
+  .information{
+    text-align: center;
+    display: block;
+  }
+}
+
+.conteiner{
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.information{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.text-inf{
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.text-inf p{
+  margin-left: 50px ;
+}
+
+.image{
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px;
+}
+
+.seti{
+  margin-bottom: 30px;
+  background-color: whitesmoke;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.seti li{
+  padding:10px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+.hobbi{
+  margin-bottom: 30px;
+  background-color: whitesmoke;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+}
+
+.table li{
+  padding:10px;
+}
+
+.teach{
+  margin-bottom: 30px;
+  background-color: whitesmoke;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+}
+
+.teach td{
+  padding-bottom:10px;
+}
+
+.teach td:nth-child(2),.teach td:nth-child(3){
+  color: gray
+}
+
+.tt{
+  width: 100%;
+}
